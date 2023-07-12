@@ -2,12 +2,12 @@
 Flower classification using deep learning googlenet in matlab
 
 
-This model is used to classify 102 categories of flowers with the acucracy of approximately ~90%. 
+This model is used to classify 102 categories of flowers with the acucracy of approximately ~90% for validation and training accuracy. 
 The link to all of the files:
 https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 
 The model is running on original images, but can also be applied to segmented images of flowers (will be commented out in the code).
-
+There is also two files: GradCam and Oclussion Sensitivty map files that will randomly select 10 images and will put it on a figure.
 
 How to use:
 1. Download the file with the images from the link above. Put all the files in the same folder
